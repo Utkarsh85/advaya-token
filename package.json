@@ -1,6 +1,6 @@
 {
   "name": "advaya-token",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Advaya token plugin based on jwt tokens",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,32 @@
+{
+  "name": "advaya-token",
+  "version": "0.0.0",
+  "description": "Advaya token plugin based on jwt tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkarsh85/advaya-token.git"
+  },
+  "keywords": [
+    "advaya",
+    "plugin",
+    "token",
+    "jwt",
+    "json",
+    "web",
+    "token"
+  ],
+  "author": "Utkarsh85",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Utkarsh85/advaya-token/issues"
+  },
+  "homepage": "https://github.com/Utkarsh85/advaya-token#readme",
+  "dependencies": {
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.15.0"
+  }
+}

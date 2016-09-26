@@ -12,11 +12,12 @@ var validity= tokenConfig.validity||14;
 
 
 token={};
-token.create = function (id,obj) {
+token.create = function (id,obj,valid) {
+	var daysToExpire= valid || validity;
 	var payload = {
     base: id,
     iat: moment().unix(),
-    exp: moment().add(validity, 'days').unix()
+    exp: moment().add(daysToExpire, 'days').unix()
   };
 
   if(obj)
